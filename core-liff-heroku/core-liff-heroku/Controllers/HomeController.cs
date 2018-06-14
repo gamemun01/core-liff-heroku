@@ -15,6 +15,10 @@ namespace core_liff_heroku.Controllers
             return View();
         }
 
+        public IActionResult Liff() {
+            return View();
+        }
+
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
